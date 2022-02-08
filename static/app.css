@@ -1,0 +1,51 @@
+.section{
+   
+    display: grid;
+    grid-template-columns: 300px;
+    -ms-grid-column-align: center;
+    gap: 20px;
+    align-items: center;
+    
+    padding: 150px;
+}
+
+body{
+    background-image: linear-gradient(rgba(201, 197, 197, 0.979), rgb(22, 132, 139));
+    font-family: 'Rowdies', cursive;
+    font-size:large;
+}
+
+h1{
+    text-align: center;
+    font-size:x-large;
+
+}
+
+.board{
+ display:flexbox;
+ flex-wrap: wrap;
+ -ms-flex-line-pack: center;
+ padding:25px;
+}
+
+.btn{
+    border:black solid 2px;
+    padding:10px;
+    margin: 15px;
+    background-color:rgb(129, 133, 167);
+    font-family: 'Rowdies', cursive;
+    font-size:large;
+}
+
+
+
+.msg.ok {
+    color: white;
+    background-color: green;
+  }
+  
+  .msg.err {
+    color: white;
+    background-color: tomato;
+  }
+  
